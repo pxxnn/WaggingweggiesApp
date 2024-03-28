@@ -1,11 +1,22 @@
 [
     { "id":"1",
-      "title": "test",
-      "description": "Dog sitting",
+      "title": "Dog Daycare", 
+      "description": "THB 300 for 1 Day", 
       "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog1.png"
     },
     { "id":"2",
-      "title": "test2",
-      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/test/room-6.jpg?token=GHSAT0AAAAAACQHI4ZBKMDW4LJ6QF6QAIWIZQFEFKQ"
+      "title": "Dog Sitting",
+      "description": "THB 750 for 1 Day",
+      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog4.jpg"
+    },
+    { "id":"3",
+      "title": "HappyWalking",
+      "description": "THB 250 for 1 Hour",
+      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog7.jpg"
+    },
+    { "id":"4",
+      "title": "Pet Traning",
+      "description": "THB 1000 for 2 Day",
+      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog6.jpg"
     }
   ]

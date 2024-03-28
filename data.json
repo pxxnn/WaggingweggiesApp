@@ -1,7 +1,8 @@
 [
     { "id":"1",
       "title": "test",
-      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/test/room-6.jpg?token=GHSAT0AAAAAACQHI4ZBKMDW4LJ6QF6QAIWIZQFEFKQ"
+      "description": "Dog sitting",
+      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog1.png"
     },
     { "id":"2",
       "title": "test2",

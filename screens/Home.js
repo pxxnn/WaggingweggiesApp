@@ -15,7 +15,7 @@ export default function Home() {
                 <Banner/>
                 <Pocket/>
                 <Menu />
-                <Service style={{ margin: 20 }} />
+                {/* <Service style={{ margin: 20 }} /> */}
                 <ServiceFlatList style={{ margin: 20 }} />
             </View>
         </ScrollView>

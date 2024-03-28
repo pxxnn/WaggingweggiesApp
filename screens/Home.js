@@ -1,0 +1,23 @@
+import React from 'react';
+import { ScrollView,  View } from 'react-native';
+import Banner from '../components/homepage/Banner';
+import Pocket from '../components/homepage/Pocket';
+import Menu from '../components/homepage/Menu';
+import Service from '../components/homepage/Service';
+import ServiceFlatList from '../components/homepage/ServiceFlatList';
+
+
+export default function Home() {
+    // const navigation = useNavigation();
+    return (
+        <ScrollView>
+            <View style={{ flex: 1}}>  
+                <Banner/>
+                <Pocket/>
+                <Menu />
+                <Service style={{ margin: 20 }} />
+                <ServiceFlatList style={{ margin: 20 }} />
+            </View>
+        </ScrollView>
+    );
+}

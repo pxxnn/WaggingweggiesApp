@@ -28,7 +28,7 @@ export default function ServiceFlatList(props) {
                 data={onlineTours}
                 renderItem={({ item }) => (
                     <View style={styles.itemContainer}>
-                        <Image style={styles.image} source={{ uri: item.uri }} />
+                        <Image style={styles.image} source={{ uri: item.image }} />
                         <View style={styles.imageOverlay}>
                             <Text style={styles.title}>{item.title}</Text>
                         </View>

@@ -8,9 +8,9 @@ import Daycare from './screens/Daycare';
 export default function App() {
   return (
     // 
-    <Home />
+    // <Home />
     // <Login/>
-    // <Daycare/>
+    <Daycare/>
     
   );
 }

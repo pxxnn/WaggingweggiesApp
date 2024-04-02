@@ -21,14 +21,16 @@ export default function Daycare(props) {
     }, []);
 
     return (
-        <View style={props.style}>
-            <View >
-                <AntDesign name="left" size={20} color="black" />
-                <Text style={{fontSize: 25 }}>Daycare</Text>
+        <View>
+            <View style={{flexDirection:'row',marginVertical:15}}>
+                <AntDesign name="left" size={25} color="black" />
+                <Text style={{fontSize: 25}}>Daycare</Text>
+                <AntDesign name="search1" size={25} color="black"  />
+                <AntDesign name="hearto" size={25} color="black" />
+                
             </View>
 
-            <Text style={{ marginTop:15, fontSize: 25, textAlign:'center' }}>Daycare</Text>
-            <Text style={{ fontSize: 15, color: 'gray', marginVertical: 10 }}>Let's find the best choice</Text>
+            
             <FlatList 
                 data={daycareData}
                 renderItem={({ item }) => (

@@ -7,7 +7,7 @@ export default function ServiceFlatList(props) {
     const [servicedata, setService] = useState([]);
     const loadService = async () => {
         try {
-            let promise = await fetch('https://github.com/pxxnn/WaggingweggiesApp/blob/main/servicedata.json');
+            let promise = await fetch('https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/servicedata.json');
             let data = await promise.json();
             console.log("Load Data : ", data);
             setService(data);

@@ -1,32 +1,25 @@
 [
   { "id":"1",
-    "title": "Angpao", 
-    "account": "Pin", 
-    "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog5.png"
+    "title": "Dog Daycare", 
+    "description": "THB 300 for 1 Day", 
+    "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog1.png"
   },
 
   { "id":"2",
-    "title": "Paotung", 
-    "account": "Pin", 
-    "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog11.jpg"
+    "title": "Dog Sitting",
+    "description": "THB 750 for 1 Day",
+    "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog4.jpg"
   },
 
   { "id":"3",
-    "title": "Bunny", 
-    "account": "xxxx", 
-    "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog9.png"
+    "title": "HappyWalking",
+    "description": "THB 250 for 1 Hour",
+    "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog7.jpg"
   },
-
-  { "id":"4",
-    "title": "Murr", 
-    "account": "xxxx", 
-    "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog10.jpg"
-  },
-
-  { "id":"5",
-    "title": "Muu", 
-    "account": "xxxx", 
-    "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog12.jpg"
-  }
   
+  { "id":"4",
+    "title": "Pet Traning",
+    "description": "THB 1000 for 2 Day",
+    "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog6.jpg"
+  }
 ]

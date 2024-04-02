@@ -16,7 +16,7 @@ export default function Home() {
                 <Pocket/>
                 <Menu />
                 <ServiceFlatList style={{ margin: 20 }} />
-                {/* <CommunityFlstList style={{ margin: 20 }}/> */}
+                <CommunityFlstList style={{ margin: 20 }}/>
             </View>
         </ScrollView>
     );

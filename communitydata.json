@@ -6,9 +6,27 @@
     },
 
     { "id":"2",
-      "title": "Angpao", 
+      "title": "Paotung", 
       "account": "Pin", 
-      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog5.png"
+      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog11.jpg"
+    },
+
+    { "id":"3",
+      "title": "Bunny", 
+      "account": "xxxx", 
+      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog9.png"
+    },
+
+    { "id":"4",
+      "title": "Murr", 
+      "account": "xxxx", 
+      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog10.jpg"
+    },
+
+    { "id":"5",
+      "title": "Muu", 
+      "account": "xxxx", 
+      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog12.jpg"
     }
     
   ]

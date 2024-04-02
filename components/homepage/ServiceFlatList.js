@@ -4,10 +4,10 @@ import { FlatList, View, Text, Image, StyleSheet } from "react-native";
 
 export default function ServiceFlatList(props) {
 
-    const [serviceData, setService] = useState([]);
+    const [servicedata, setService] = useState([]);
     const loadService = async () => {
         try {
-            let promise = await fetch('https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/data.json');
+            let promise = await fetch('https://github.com/pxxnn/WaggingweggiesApp/blob/main/servicedata.json');
             let data = await promise.json();
             console.log("Load Data : ", data);
             setService(data);
@@ -26,7 +26,7 @@ export default function ServiceFlatList(props) {
             <Text style={{ fontSize: 15, color: 'gray', marginVertical: 10 }}>Let's find the best choice</Text>
             <FlatList 
                 horizontal={true}
-                data={serviceData}
+                data={servicedata}
                 renderItem={({ item }) => (
                     <View style={styles.itemContainer}>
                         <Image style={styles.image} source={{ uri: item.image }} />

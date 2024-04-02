@@ -7,7 +7,7 @@ export default function CommunityFlstList(props) {
     const [communityData, setCommunity] = useState([]);
     const loadCommunity = async () => {
         try {
-            let promise = await fetch('https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/data.json');
+            let promise = await fetch('https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/communitydata.json');
             let data = await promise.json();
             console.log("Load Data : ", data);
             setCommunity(data);

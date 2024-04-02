@@ -2,31 +2,30 @@ import React, { useEffect, useState } from "react";
 import { FlatList, View, Text, Image, StyleSheet } from "react-native";
 
 
-export default function ServiceFlatList(props) {
+export default function CommunityFlstList(props) {
 
-    const [serviceData, setService] = useState([]);
-    const loadService = async () => {
+    const [communityData, setCommunity] = useState([]);
+    const loadCommunity = async () => {
         try {
             let promise = await fetch('https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/data.json');
             let data = await promise.json();
             console.log("Load Data : ", data);
-            setService(data);
+            setCommunity(data);
         } catch (error) {
             console.log("ERROR : ", error);
         }
     }
 
     useEffect(() => {
-        loadService();
+        loadCommunity();
     }, []);
 
     return (
         <View style={props.style}>
-            <Text style={{ fontSize: 25 }}>Our Service</Text>
-            <Text style={{ fontSize: 15, color: 'gray', marginVertical: 10 }}>Let's find the best choice</Text>
+            <Text style={{ fontSize: 25 }}>Pet in Community</Text>
             <FlatList 
                 horizontal={true}
-                data={serviceData}
+                data={communityData}
                 renderItem={({ item }) => (
                     <View style={styles.itemContainer}>
                         <Image style={styles.image} source={{ uri: item.image }} />

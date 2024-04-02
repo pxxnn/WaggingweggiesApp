@@ -6,7 +6,7 @@ export default function Menu() {
     <View style={styles.container}>
       {/* View ก้อนที่ 2 */}
       <View style={styles.imageContainer}>
-        <TouchableOpacity onPress={() => handleImagePress("Boarding")} style={styles.touchable}>
+        <TouchableOpacity onPress={() => handleImagePress("Daycare")} style={styles.touchable}>
           <View style={styles.imageWrapper}>
             <Image style={styles.image} source={require("../../assets/home/Boarding.png")} />
             <Text style={styles.text}>Boarding</Text>

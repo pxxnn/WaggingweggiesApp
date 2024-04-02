@@ -3,8 +3,8 @@ import { ScrollView,  View } from 'react-native';
 import Banner from '../components/homepage/Banner';
 import Pocket from '../components/homepage/Pocket';
 import Menu from '../components/homepage/Menu';
-import Service from '../components/homepage/Service';
 import ServiceFlatList from '../components/homepage/ServiceFlatList';
+import CommunityFlstList from '../components/homepage/CommunityFlatList';
 
 
 export default function Home() {
@@ -17,6 +17,7 @@ export default function Home() {
                 <Menu />
                 {/* <Service style={{ margin: 20 }} /> */}
                 <ServiceFlatList style={{ margin: 20 }} />
+                <CommunityFlstList style={{ margin: 20 }}/>
             </View>
         </ScrollView>
     );

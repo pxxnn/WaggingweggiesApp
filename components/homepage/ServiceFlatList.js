@@ -21,8 +21,8 @@ export default function ServiceFlatList(props) {
 
     return (
         <View style={props.style}>
-            <Text style={{ fontSize: 25 }}>Service</Text>
-            <Text style={{ fontSize: 15, color: 'gray', marginVertical: 10 }}>Let's find out what's most interesting!</Text>
+            <Text style={{ fontSize: 25 }}>Our Service</Text>
+            <Text style={{ fontSize: 15, color: 'gray', marginVertical: 10 }}>Let's find the best choice</Text>
             <FlatList 
                 horizontal={true}
                 data={onlineTours}
@@ -31,6 +31,7 @@ export default function ServiceFlatList(props) {
                         <Image style={styles.image} source={{ uri: item.image }} />
                         <View style={styles.imageOverlay}>
                             <Text style={styles.title}>{item.title}</Text>
+                            <Text style={styles.description}>{item.description}</Text>
                         </View>
                     </View>
                 )}
@@ -63,6 +64,6 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 20,
         color: 'white',
-        textAlign: 'center',
+        // textAlign: 'center',
     },
 });

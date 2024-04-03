@@ -9,7 +9,7 @@ export default function Menu() {
         <TouchableOpacity onPress={() => handleImagePress("Daycare")} style={styles.touchable}>
           <View style={styles.imageWrapper}>
             <Image style={styles.image} source={require("../../assets/home/Boarding.png")} />
-            <Text style={styles.text}>Boarding</Text>
+            <Text style={styles.text}></Text>
           </View>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => handleImagePress("Sitting")} style={styles.touchable}>

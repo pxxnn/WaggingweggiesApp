@@ -7,7 +7,7 @@ export default function Daycare(props) {
     const [daycareData, setDaycare] = useState([]);
     const loadDaycare = async () => {
         try {
-            let promise = await fetch('https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/data.json');
+            let promise = await fetch('https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/daycaredata.json');
             let data = await promise.json();
             console.log("Load Data : ", data);
             setDaycare(data);

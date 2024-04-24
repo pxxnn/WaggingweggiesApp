@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FlatList, View, Text, Image, StyleSheet } from "react-native";
+import { FlatList, View, Text, Image, StyleSheet,TouchableOpacity } from "react-native";
 
 
 export default function CommunityFlstList(props) {
@@ -27,6 +27,7 @@ export default function CommunityFlstList(props) {
                 horizontal={true}
                 data={communityData}
                 renderItem={({ item }) => (
+                    <TouchableOpacity onPress={() => handleImagePress("Pet in Community")} style={styles.touchable}>
                     <View style={styles.itemContainer}>
                         <Image style={styles.image} source={{ uri: item.image }} />
                         <View style={styles.imageOverlay}>
@@ -34,12 +35,15 @@ export default function CommunityFlstList(props) {
                             <Text style={styles.description}>{item.description}</Text>
                         </View>
                     </View>
+                    </TouchableOpacity>
                 )}
                 keyExtractor={item => item.id}
             />
         </View>
     );
 }
+
+
 
 const styles = StyleSheet.create({
     itemContainer: {

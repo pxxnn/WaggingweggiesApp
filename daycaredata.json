@@ -1,0 +1,32 @@
+[
+    {
+      "id": "1",
+      "title": "Dog Daycare",
+      "description": "THB 300 for 1 Day",
+      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog1.png"
+    },
+    {
+      "id": "2",
+      "title": "Cat Daycare",
+      "description": "THB 300 for 1 Day",
+      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog12.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Daycare Rangsit",
+      "description": "THB 250 for 1 Day",
+      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog7.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Daycare Klong Neung",
+      "description": "THB 350 for 1 Day",
+      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog6.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Cat Happycare",
+      "description": "THB 300 for 1 Day",
+      "image": "https://raw.githubusercontent.com/pxxnn/WaggingweggiesApp/main/assets/dogs/dog12.jpg"
+    }
+  ]

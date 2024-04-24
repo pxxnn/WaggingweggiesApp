@@ -9,7 +9,7 @@ export default function Menu() {
         <TouchableOpacity onPress={() => handleImagePress("Daycare")} style={styles.touchable}>
           <View style={styles.imageWrapper}>
             <Image style={styles.image} source={require("../../assets/home/Boarding.png")} />
-            <Text style={styles.text}></Text>
+            <Text style={styles.text}>Daycare</Text>
           </View>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => handleImagePress("Sitting")} style={styles.touchable}>
@@ -27,16 +27,17 @@ export default function Menu() {
       </View>
       {/* View ก้อนที่ 3 */}
       <View style={styles.imageContainer}>
-        <TouchableOpacity onPress={() => handleImagePress("Taxi")} style={styles.touchable}>
-          <View style={styles.imageWrapper}>
-            <Image style={styles.image} source={require("../../assets/home/Taxi.png")} />
-            <Text style={styles.text}>Taxi</Text>
-          </View>
-        </TouchableOpacity>
         <TouchableOpacity onPress={() => handleImagePress("Grooming")} style={styles.touchable}>
           <View style={styles.imageWrapper}>
             <Image style={styles.image} source={require("../../assets/home/Grooming.png")} />
             <Text style={styles.text}>Grooming</Text>
+          </View>
+        </TouchableOpacity>
+
+        <TouchableOpacity onPress={() => handleImagePress("Taxi")} style={styles.touchable}>
+          <View style={styles.imageWrapper}>
+            <Image style={styles.image} source={require("../../assets/home/Taxi.png")} />
+            <Text style={styles.text}>Taxi</Text>
           </View>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => handleImagePress("Training")} style={styles.touchable}>
